@@ -18,3 +18,4 @@ SELECT TOP (1000) [ID]
       ,[Uwagi]
   FROM [Northwind].[dbo].[Pracownicy]
   ORDER BY Nazwisko DESC
+  GO
