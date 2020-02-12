@@ -17,3 +17,5 @@ SELECT TOP (1000) [ID]
       ,[Strona sieci Web]
       ,[Uwagi]
   FROM [Northwind].[dbo].[Pracownicy]
+  WHERE [Tytuł zawodowy] = 'Przedstawiciel handlowy'
+  ORDER BY Nazwisko DESC
